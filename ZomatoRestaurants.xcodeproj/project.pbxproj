@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0E2519258AC192005CF9C0 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E2518258AC192005CF9C0 /* CollectionTableViewCell.swift */; };
+		BA0E251C258AD314005CF9C0 /* RestaurantsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E251B258AD314005CF9C0 /* RestaurantsResponse.swift */; };
+		BA0E251F258ADD7C005CF9C0 /* CategoryRestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E251E258ADD7C005CF9C0 /* CategoryRestaurantsTableViewController.swift */; };
+		BA0E2522258ADD97005CF9C0 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E2521258ADD97005CF9C0 /* RestaurantTableViewCell.swift */; };
+		BA0E2526258AF147005CF9C0 /* CollectionRestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E2525258AF147005CF9C0 /* CollectionRestaurantsTableViewController.swift */; };
 		BA444C87258AA5B700DD34E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444C86258AA5B700DD34E0 /* AppDelegate.swift */; };
 		BA444C89258AA5B700DD34E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444C88258AA5B700DD34E0 /* SceneDelegate.swift */; };
-		BA444C8B258AA5B700DD34E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444C8A258AA5B700DD34E0 /* ViewController.swift */; };
 		BA444C8E258AA5B700DD34E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA444C8C258AA5B700DD34E0 /* Main.storyboard */; };
 		BA444C91258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA444C8F258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodeld */; };
 		BA444C93258AA5B900DD34E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA444C92258AA5B900DD34E0 /* Assets.xcassets */; };
 		BA444C96258AA5B900DD34E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA444C94258AA5B900DD34E0 /* LaunchScreen.storyboard */; };
+		BA444C9F258AA82200DD34E0 /* CollectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444C9E258AA82200DD34E0 /* CollectionsTableViewController.swift */; };
+		BA444CA3258AAFC400DD34E0 /* ZomatoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444CA1258AAFC400DD34E0 /* ZomatoAPIClient.swift */; };
+		BA444CA4258AAFC400DD34E0 /* CollectionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444CA2258AAFC400DD34E0 /* CollectionsResponse.swift */; };
+		BA444CAB258AB19900DD34E0 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444CAA258AB19900DD34E0 /* CategoriesTableViewController.swift */; };
+		BA444CAE258AB26E00DD34E0 /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA444CAD258AB26E00DD34E0 /* CategoriesResponse.swift */; };
+		BAF5887B258B7ABB00FE10C4 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5887A258B7ABB00FE10C4 /* RestaurantViewController.swift */; };
+		BAF58884258BC02A00FE10C4 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAF58883258BC02A00FE10C4 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0E2518258AC192005CF9C0 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		BA0E251B258AD314005CF9C0 /* RestaurantsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsResponse.swift; sourceTree = "<group>"; };
+		BA0E251E258ADD7C005CF9C0 /* CategoryRestaurantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRestaurantsTableViewController.swift; sourceTree = "<group>"; };
+		BA0E2521258ADD97005CF9C0 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		BA0E2525258AF147005CF9C0 /* CollectionRestaurantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionRestaurantsTableViewController.swift; sourceTree = "<group>"; };
 		BA444C83258AA5B700DD34E0 /* ZomatoRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZomatoRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA444C86258AA5B700DD34E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA444C88258AA5B700DD34E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA444C8A258AA5B700DD34E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA444C8D258AA5B700DD34E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA444C90258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZomatoRestaurants.xcdatamodel; sourceTree = "<group>"; };
 		BA444C92258AA5B900DD34E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA444C95258AA5B900DD34E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA444C97258AA5B900DD34E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA444C9E258AA82200DD34E0 /* CollectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsTableViewController.swift; sourceTree = "<group>"; };
+		BA444CA1258AAFC400DD34E0 /* ZomatoAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomatoAPIClient.swift; sourceTree = "<group>"; };
+		BA444CA2258AAFC400DD34E0 /* CollectionsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsResponse.swift; sourceTree = "<group>"; };
+		BA444CAA258AB19900DD34E0 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		BA444CAD258AB26E00DD34E0 /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+		BAF5887A258B7ABB00FE10C4 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		BAF58883258BC02A00FE10C4 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +64,7 @@
 		BA444C7A258AA5B700DD34E0 = {
 			isa = PBXGroup;
 			children = (
+				BAF58883258BC02A00FE10C4 /* readme.txt */,
 				BA444C85258AA5B700DD34E0 /* ZomatoRestaurants */,
 				BA444C84258AA5B700DD34E0 /* Products */,
 			);
@@ -59,15 +82,49 @@
 			isa = PBXGroup;
 			children = (
 				BA444C86258AA5B700DD34E0 /* AppDelegate.swift */,
+				BA444CA6258AAFD000DD34E0 /* Model */,
 				BA444C88258AA5B700DD34E0 /* SceneDelegate.swift */,
-				BA444C8A258AA5B700DD34E0 /* ViewController.swift */,
-				BA444C8C258AA5B700DD34E0 /* Main.storyboard */,
 				BA444C92258AA5B900DD34E0 /* Assets.xcassets */,
-				BA444C94258AA5B900DD34E0 /* LaunchScreen.storyboard */,
+				BAF58887258BC3D100FE10C4 /* Views */,
 				BA444C97258AA5B900DD34E0 /* Info.plist */,
-				BA444C8F258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodeld */,
+				BA444CA8258AB15500DD34E0 /* Controllers */,
 			);
 			path = ZomatoRestaurants;
+			sourceTree = "<group>";
+		};
+		BA444CA6258AAFD000DD34E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA444CA1258AAFC400DD34E0 /* ZomatoAPIClient.swift */,
+				BA444CA2258AAFC400DD34E0 /* CollectionsResponse.swift */,
+				BA444CAD258AB26E00DD34E0 /* CategoriesResponse.swift */,
+				BA0E251B258AD314005CF9C0 /* RestaurantsResponse.swift */,
+				BA444C8F258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA444CA8258AB15500DD34E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA444C9E258AA82200DD34E0 /* CollectionsTableViewController.swift */,
+				BA444CAA258AB19900DD34E0 /* CategoriesTableViewController.swift */,
+				BA0E2518258AC192005CF9C0 /* CollectionTableViewCell.swift */,
+				BA0E251E258ADD7C005CF9C0 /* CategoryRestaurantsTableViewController.swift */,
+				BA0E2521258ADD97005CF9C0 /* RestaurantTableViewCell.swift */,
+				BA0E2525258AF147005CF9C0 /* CollectionRestaurantsTableViewController.swift */,
+				BAF5887A258B7ABB00FE10C4 /* RestaurantViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BAF58887258BC3D100FE10C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA444C8C258AA5B700DD34E0 /* Main.storyboard */,
+				BA444C94258AA5B900DD34E0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +186,7 @@
 			files = (
 				BA444C96258AA5B900DD34E0 /* LaunchScreen.storyboard in Resources */,
 				BA444C93258AA5B900DD34E0 /* Assets.xcassets in Resources */,
+				BAF58884258BC02A00FE10C4 /* readme.txt in Resources */,
 				BA444C8E258AA5B700DD34E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +198,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0E251C258AD314005CF9C0 /* RestaurantsResponse.swift in Sources */,
+				BAF5887B258B7ABB00FE10C4 /* RestaurantViewController.swift in Sources */,
 				BA444C91258AA5B700DD34E0 /* ZomatoRestaurants.xcdatamodeld in Sources */,
-				BA444C8B258AA5B700DD34E0 /* ViewController.swift in Sources */,
+				BA0E251F258ADD7C005CF9C0 /* CategoryRestaurantsTableViewController.swift in Sources */,
+				BA444CA4258AAFC400DD34E0 /* CollectionsResponse.swift in Sources */,
+				BA444CAE258AB26E00DD34E0 /* CategoriesResponse.swift in Sources */,
+				BA0E2526258AF147005CF9C0 /* CollectionRestaurantsTableViewController.swift in Sources */,
+				BA444CAB258AB19900DD34E0 /* CategoriesTableViewController.swift in Sources */,
+				BA0E2519258AC192005CF9C0 /* CollectionTableViewCell.swift in Sources */,
 				BA444C87258AA5B700DD34E0 /* AppDelegate.swift in Sources */,
 				BA444C89258AA5B700DD34E0 /* SceneDelegate.swift in Sources */,
+				BA444C9F258AA82200DD34E0 /* CollectionsTableViewController.swift in Sources */,
+				BA0E2522258ADD97005CF9C0 /* RestaurantTableViewCell.swift in Sources */,
+				BA444CA3258AAFC400DD34E0 /* ZomatoAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LocalRestaurants" representedClassName="LocalRestaurants" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="allReviewsCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="featuredImage" optional="YES" attributeType="String"/>
+        <attribute name="highlights" optional="YES" attributeType="Transformable" customClassName="Array&lt;String&gt;"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="menuUrl" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="photosUrl" optional="YES" attributeType="String"/>
+        <attribute name="priceRange" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="timings" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="LocalRestaurants" positionX="-63" positionY="-18" width="128" height="239"/>
+    </elements>
+</model>
